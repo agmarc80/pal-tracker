@@ -27,7 +27,7 @@ jobs:
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
         file: "build/libs/pal-tracker.jar"
-        skip_cleanup: true
+        skip_cleanup: true/home/pal_user/temp/application.properties
     - stage: deploy to review
       language: java
       before_install:
